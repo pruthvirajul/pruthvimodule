@@ -17,7 +17,7 @@ services:
     build: ./Backend
     container_name: staff_backend
     ports:
-      - "3204:3204"
+      - "3205:3205"
     depends_on:
       - postgres
     environment:
