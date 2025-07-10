@@ -17,7 +17,7 @@ services:
     build: ./Backend
     container_name: staff_backend
     ports:
-      - "3211:3211"
+      - "3219:3219"
     depends_on:
       - postgres
     environment:
@@ -31,7 +31,7 @@ services:
     build: ./HR-staff
     container_name: hr_staff_ui
     ports:
-      - "8021:80"
+      - "8121:80"
     depends_on:
       - backend
 
